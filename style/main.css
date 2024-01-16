@@ -1,0 +1,184 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body{
+    font-family: 'Roboto', sans-serif;
+  }
+  
+   
+  .intestazione{
+    height: 80px;
+    margin-bottom: 7px;
+  }
+  
+  header img{
+    vertical-align:middle;
+    margin-left: 33px;
+  }
+  
+  h1{
+    display: inline-block;
+    margin-top: 4px;
+    line-height: 80px;
+  }
+   
+   .riga{
+    background-color: red;
+    width: 10px;
+    height: 10px;
+   }
+  
+  
+  .container{
+    
+    padding-top: 15px;
+    max-width: 65%;
+    height: 100%;
+    background-color:rgb(255, 255, 255);
+    margin: 20px auto;
+    list-style: none;
+    padding-bottom: 20px;
+    border-radius: 10px;
+  }
+  
+  main{
+    background-color: rgb(246,248,249);
+    padding-top: 20px;
+  }
+  
+  
+  .buttom{
+    padding-top: 17px;
+    border-bottom: 4px solid rgb(246,248,249);
+    padding-bottom: 8px;
+    padding-left: 50px;
+  }
+  
+  .blu{
+    background-color: rgb(13, 178, 233);
+    color: white;
+    border-radius: 5px;
+    padding: 4px 9px;
+    border-color: rgb(45, 152, 188);
+  }
+  
+  .white{
+    background-color: rgb(255, 255, 255);
+    color: rgb(125, 121, 121);
+    border-radius: 5px;
+    padding: 4px 9px;
+    border-color: rgb(158, 158, 158);
+  }
+  
+  .buttom :hover{
+    cursor: pointer;
+  }
+  
+  
+  
+  
+  section ul{
+    list-style: none;
+  }
+  
+   .new-task{
+    margin-top: 35px;
+    margin-bottom: 29px;
+    padding-left: 50px;
+   }
+  
+   .today{
+    margin-top: 35px;
+    margin-bottom: 29px;
+    padding-left: 50px;
+   }
+  
+   .Upcoming{
+    margin-top: 35px;
+    margin-bottom: 29px;
+    padding-left: 50px;
+   }
+  
+   .container li{
+    padding: 8px;
+   }
+  
+  .freccia{
+    height: 10px;
+    display: inline-block;
+    font-size: 2em;
+    vertical-align: top;
+  }
+   
+  .tic{
+    display: inline-block;
+    width: 23px;
+    border: 1px solid rgb(49, 202, 41);
+    border-radius: 50%;
+    text-align: center;
+    color:rgb(49, 202, 41) ;
+  }
+  
+  .nope{
+    display: inline-block;
+    width: 23px;
+    border: 1px solid rgb(224, 42, 42);
+    border-radius: 50%;
+    text-align: center;
+    color: rgb(224, 42, 42);
+  }
+  
+  .sticker{
+    display: inline-block;
+  }
+  
+  #editorial{
+    background-color: rgb(0, 147, 201);
+    padding: 5px 8px;
+    border-radius: 15px;
+    font-size: .7em;
+    color: white;
+  }
+  
+  #goals{
+    background-color: rgb(154, 82, 217);
+    padding: 5px 8px;
+    border-radius: 15px;
+    font-size: .7em;
+    color: white;
+  }
+  
+  #recruiting{
+    background-color: rgba(39, 227, 152, 0.839);
+    padding: 5px 8px;
+    border-radius: 15px;
+    font-size: .7em;
+    color: white;
+  }
+  
+  #mobile{
+    background-color: rgb(234, 132, 22);
+    padding: 5px 8px;
+    border-radius: 15px;
+    font-size: .7em;
+    color: white;
+  }
+  
+  #Website{
+    background-color: rgb(202, 59, 111);
+    padding: 5px 8px;
+    border-radius: 15px;
+    font-size: .7em;
+    color: white;
+  }
+  
+  #Sales{
+    background-color: rgb(127, 192, 70);
+    padding: 5px 8px;
+    border-radius: 15px;
+    font-size: .7em;
+    color: white;
+  }

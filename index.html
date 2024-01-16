@@ -1,28 +1,102 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>todolist</title>
-    <link rel="stylesheet" href="style/main.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Toboolist</title>
+  <link rel="stylesheet" href="/style/main.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700;900&display=swap" rel="stylesheet">
 </head>
-<header class="container"> 
-    <div class="header top"> </div>
-<img src="img/Logo.png" alt="Logo">
-<h1 id="logo">Toboolist</h1>
-<main>
-<div class="box"> 
+<body>
+
+  <header>
+    <div class="intestazione">
+      <img src="img/Logo.png" alt="Boolean-logo">
+      <h1 class="titolo">Toboolist</h1>
+    </div>
+  </header>
+
+  <main>
+    <section class="container">
+      <div class="button">
+        <button class="blu">Add Task</button>
+        <button class="white">Add Section</button>
+      </div>
+      <hr>
+      <div class="new-task">
+        <h3><div class="freccia">&#129171</div> New Task</h3>
     
+        <ul>
+          <li>
+            <div class="tic">&check;</div>&nbsp;&nbsp;Quarterly Newsletter
+            <div class="sticker">
+              <div id="editorial">Editorial</div>
+            </div>
+          </li>   
+        </ul>
+      </div>
+      <div class="today">
+        <h3><div class="freccia">&#129171</div>Today</h3>
+        <ul>
+          <li>
+            <div class="tic">&check;</div>&nbsp;&nbsp;Recruiting blog post
+            <div class="sticker">
+              <div id="editorial">Editorial</div>
+            </div>
+          </li>
+          <li>
+            <div class="tic">&check;</div>&nbsp;&nbsp;Mobile app launch
+            <div class="sticker">
+              <div id="goals">Q1 Goals</n>
+            </div>
+          </li>
+          <li>
+            <div class="nope">&cross;</div>&nbsp;&nbsp;Interview John H.
+            <div class="sticker">
+              <div id="recruiting">Recruiting</div>
+            </div>
+          </li>
+          <li>
+            <div class="tic">&check;</div>&nbsp;&nbsp;Summit update to mobile storefront
+            <div class="sticker">
+              <div id="mobile">Mobile</div>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <div class="Upcoming">
+        <h3><div class="freccia">&#129171</div>Upcoming</h3>
+        <ul>
+          <li>
+            <div class="nope">&cross;</div>&nbsp;&nbsp;Schedule meeting with Alex
+          </li>
+          <li>
+            <div class="tic">&check;</div>&nbsp;&nbsp;Homepage Refresh
+            <div class="sticker">
+              <div id="Website">Website</div>
+            </div>
+          </li>
+          <li>
+            <div class="tic">&check;</div>&nbsp;&nbsp;Onboard new sales team members
+            <div class="sticker">
+              <div id="Sales">Sales</div>
+            </div>
+          </li>
+          <li>
+            <div class="tic">&check;</div>&nbsp;&nbsp;Review editorial calendar
+            <div class="sticker">
+              <div id="editorial">Editorial</div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
     
-    <div class="box alternative"> 
-        <input class="button" id="addtask" type="button" value="add-task">
-        <input class="button" id="add-section" type="button" value="add-section">
-        </div>
+  </main>
 
-</main>
+ 
 
-
-
-
-</header>
+</body>
 </html>
